@@ -1,0 +1,192 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Youtube</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <style>
+        header {
+            background-color: #ff0000;
+            padding: 10px 20px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        header img {
+            height: 40px;
+        }
+        main {
+            margin-left: 250px;
+            padding: 20px;
+            margin-top: 100px;
+        }
+        .video-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .video-item {
+            width: calc(25% - 20px);
+            background-color: white;
+            padding: 5px;
+            border-radius: 5px;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+            color: #ffffff;
+        }
+        .video-item img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .video-item h3 {
+            font-size: 16px;
+            margin: 10px 0 5px;
+        }
+        .video-item p {
+            font-size: 14px;
+            color: #abaaaa;
+        }
+        .header{
+            position: fixed;
+            width: 100%;
+            position: fixed;
+             width: 100%; 
+             top: 0; 
+             z-index: 1000
+        }
+    </style>
+</head>
+<body>
+    <aside>
+    <div class="navbar">
+        <!-- <div class="nav-1">
+            <div class="home">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div> -->
+        <div class="nav-2">
+                <div class="home">
+                <i class="fa-solid fa-house"></i>
+                <!-- <a class="hh" href="#"> Home</a> -->
+            </div>
+                <a class="hh" href="https://www.youtube.com/feed/home"> Home</a>
+        </div>
+        <div class="nav-3">
+            <div class="home">
+                <i class="fa-solid fa-music"></i>
+            </div>
+            <a class="hh" href="https://www.youtube.com/feed/music">Music</a>
+        </div>
+        <div class="nav-4">
+            <div class="home">
+                <i class="fa-solid fa-video"></i>
+            </div>
+            <a class="hh" href="https://www.youtube.com/feed/">Movies</a>
+        </div>
+        <div class="nav-5">
+            <div class="home">
+                <i class="fa-solid fa-photo-film"></i>
+            </div>
+           <a class="hh-1" href="https://www.youtube.com/feed/subscriptions">Subscriptions</a>
+        </div>
+        
+    </div>
+    </aside>
+    <header class="header">
+        <div class="navbar-top">
+        <!-- <div class="top">
+            <i class="fa-solid fa-bars"></i>
+        </div> -->
+        <div class="top-1">
+            <a class="hh-1" href="#">
+                <i class="fa-solid fa-bars fa-2x">
+                </i>
+            </a>  
+        </div>
+        <div class="top-2">
+            <a class="hh-1" href="#">
+                <div class="youtube">    
+                </div>
+            </a>
+            
+        </div>
+        <!-- nav-search -->
+        <!-- <div class="nav-search"> -->
+            <form class="nav-search" action="https://www.youtube.com/search" method="get">
+                <input type="text" name="q" placeholder="Search YouTube" class="search-input">
+                <!-- <button type="submit">
+                    <img src="D:\Flipkart_home_page\search.png" alt="Google Logo">
+                </button> -->
+            <!-- <input placeholder=" Search YouTube" class="search-input"> -->  
+                    <div class="Search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>               
+            </form>
+        <div class="audio">
+            <i class="fa-solid fa-microphone fa-2x" style="color: #ffffff;"></i>
+        
+        </div>
+        <div class="video" >
+            <i  href="#" class="fa-solid fa-video fa-2x" style="color: #ffffff"; ></i>
+
+        </div>
+        <div class="bell" >
+            <i href="#" class="fa-regular fa-bell fa-2x"></i>
+            
+        </div>
+        <div class="user">
+            <i class="fa-solid fa-circle-user fa-2x"></i>
+        </div>
+    </div>
+</header>
+<!-- <div class="images">
+    <div class="sec-1">
+    </div>
+    <div class="box1 box">
+        <div class="box-content">
+             <h3 class="hh">Health & Personal care| <br>Starting Rs.149</h3>
+             <div class="box-img" style="background-image: url('box_1img.jpg');"></div>
+             <a href="#">See more</a>
+        </div>
+     </div> -->
+     <main>
+        <div class="video-grid">
+            <div class="video-item">
+                <img src="D:\Flipkart_home_page\music.jpg" alt="Video Thumbnail">
+                <h3>Tohfa</h3>
+                <p>Zee Music  <br>• 1M views • 1 day ago</p>
+            </div>
+            <div class="video-item">
+                <img src="D:\Flipkart_home_page\podcast.jpg" alt="Video Thumbnail">
+                <h3>Enter The Realm</h3>
+                <p>Yours Podcast• 500K views • 3 days ago</p>
+            </div>
+            <div class="video-item">
+                <img src="D:\Flipkart_home_page\music-2.jpg" alt="Video Thumbnail">
+                <h3>You? </h3>
+                <p>T-series <br>• 1M views • 1 day ago</p>
+            </div>
+            <div class="video-item">
+                <img src="D:\Flipkart_home_page\img-2.jpg" alt="Video Thumbnail">
+                <h3>How to add Music</h3>
+                <p>Veed Videos •<br> 1M views • 1 day ago</p>
+            </div>
+            <div class="video-item">
+                <img src="D:\Flipkart_home_page\peppa pig.jpg" alt="Video Thumbnail">
+                <h3>Peppa Pig </h3>
+                <p>Disney •<br> 1M views • 1 day ago</p>
+            </div>
+            <div class="video-item">
+                <img src="D:\Flipkart_home_page\cocomelon.jpg" alt="Video Thumbnail">
+                <h3>CoComelon</h3>
+                <p>Cartoon Network • 1M views • 1 day ago</p>
+            </div>
+        </div>
+    </main>
+
+    
+    
+</body>
+</html>
